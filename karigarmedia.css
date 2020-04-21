@@ -1,0 +1,51 @@
+@media (min-width: 0px) and (max-width: 480px) {
+
+    .login-btn {
+        padding: 5px 25px;
+        font-size: 13px;
+    }
+
+    .cart-text {
+        display: none;
+    }
+
+    .hnf-heading {
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .login-btn {
+        padding: 5px 25px;
+    }
+
+    .cart-text {
+        display: none;
+    }
+
+    .hnf-heading {
+        font-size: 9px;
+    }
+
+    .caption-bottom {
+        bottom: 30%;
+    }
+
+    .caption-head, .caption-head-w {
+        font-size: 4rem;
+    }
+
+    .ch-line, .ch-line-w {
+        font-size: 1.25rem;
+    }
+
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hnf-heading {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1500px) {}

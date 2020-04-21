@@ -1,0 +1,177 @@
+/*
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.kghead {
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+}
+
+.kglogodiv {
+    font-family: 'Lexend Giga', sans-serif;
+    padding-top: 10px;
+}
+
+.kglogodiv a {
+    color: #000;
+}
+
+.kglogodiv a:hover {
+    text-decoration: none;
+}
+
+.kg-logo {
+    font-size: 1.5rem;
+}
+
+.kr-color {
+    color: #32cfb0;
+}
+
+.hnf-heading {
+    font-size: 10px;
+}
+
+.kgsearch {
+    display: flex;
+    align-items: center;
+}
+
+.login-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart-nav {
+    color: black;
+}
+
+.navbar-text {
+    display: none;
+}
+
+.tbjcfe {
+    justify-content: flex-end;
+}
+
+.hpgac {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hpgac li a {
+    color: black !important;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    font-family: sans-serif;
+}
+
+.login-btn {
+    color: white;
+    font-weight: 500;
+    background-color: #32cfb0;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 5px 40px;
+    border: 1px solid #32cfb0;
+}
+
+.login-btn:hover {
+    text-decoration: none;
+    color: #e9efee;
+}
+
+.cart-nav:hover {
+    text-decoration: none;
+}
+
+.cart-text {
+    padding-left: 15px;
+}
+
+.caption-bottom {
+    bottom: 40%;
+}
+
+.caption-head{
+    color: black;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.caption-head-w{
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
+}
+.ch-line {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.ch-line-w {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.btn-shop-now {
+    color: #FFF;
+    background-color: #32cfb0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px 40px;
+    border: 2px solid #32cfb0;
+    transition: all 0.3s ease;
+}
+
+.btn-shop-now:hover {
+    text-decoration: none;
+    background-color: black;
+    color: #FFF;
+    border: none;
+}
+
+.bg-none {
+    background: none;
+}
+
+.carousel-indicators li {
+    border: 0;
+    border-radius: 50%;
+    background: #000;
+    width: 15px;
+    height: 15px;
+    margin: 0 15px;
+    transition: all 0.2s ease 0s;
+    z-index: 4;
+}
+
+.carousel-indicators .active {
+    background-color: #32cfb0;
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+font-size: 22px;
+text-align: center;
+width: 48px;
+height: 48px;
+border-radius: 50%;
+background-color: #FFF;
+line-height: 48px;
+transition: all 0.2s ease 0s;
+}

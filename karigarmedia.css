@@ -12,6 +12,94 @@
     .hnf-heading {
         font-size: 9px;
     }
+
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        margin: 0 10px;
+    }
+
+    .carousel-indicators .active {
+        width: 15px;
+        height: 15px;
+    }
+
+    .caption-head,
+    .caption-head-w {
+        font-size: 1.25rem;
+    }
+
+    .ch-line,
+    .ch-line-w {
+        font-size: 0.6rem;
+    }
+
+    .btn-shop-now {
+        font-size: 7px;
+        padding: 3px 10px;
+    }
+
+    .caption-bottom {
+        bottom: 25%;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .bag-mr-bottom {
+        margin-bottom: 0px;
+    }
+
+    .col-cap-one {
+        font-size: 18px;
+        margin-bottom: 12px;    
+    }
+
+    .col-cap-two {
+    font-size: 14px;
+    margin-bottom: 10px;
+    }
+
+    .b-shop-now, .recycled-truck .b-shop-now  {
+        font-size: 12px;
+        padding: 7px 25px;
+    }
+
+    .category-heading {
+        font-size: 1.5rem; 
+    }
+
+    .atc-div {
+        bottom: 44%;
+    }
+
+    .product-title {
+        font-size: 0.95rem;
+    }
+
+    .atc-btn {
+        padding: 7px 15px;
+    }
+
+    .more-colors {
+        font-size: 11px;
+    }
+
+    .by-brand {
+        font-size: 12px;
+    }
+
+    .actual-price {
+        font-size: 18px; 
+    }
+
+    .strike-price {
+        font-size: 14px;
+}
+
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -31,21 +119,84 @@
         bottom: 30%;
     }
 
-    .caption-head, .caption-head-w {
+    .caption-head,
+    .caption-head-w {
         font-size: 4rem;
     }
 
-    .ch-line, .ch-line-w {
+    .ch-line,
+    .ch-line-w {
         font-size: 1.25rem;
     }
 
-    
+    .bag-mr-bottom {
+        margin-bottom: 23px;
+    }
+
+    .col-cap-one {
+        font-size: 24px;
+        margin-bottom: 12px;    
+    }
+
+    .col-cap-two {
+    font-size: 20px;
+    margin-bottom: 20px;
+    }
+
+    .b-shop-now, .recycled-truck .b-shop-now  {
+        font-size: 12px;
+    }
+
+    .actual-price {
+        font-size: 18px; 
+    }
+
+    .strike-price {
+        font-size: 14px;
+    }
+
+    .atc-div {
+        bottom: 52%;
+    }
+
+    .product-title {
+        font-size: 0.85rem;
+    }
+
+    .save-rs{
+        font-size: 10px;
+    }
+
+    .atc-btn {
+        padding: 7px 15px;
+    }
+
+    .by-brand {
+        font-size: 13px;
+    }
+
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .hnf-heading {
         font-size: 8px;
     }
+
+    .bag-mr-bottom {
+        margin-bottom: 35px;
+    }
+
+    .atc-div {
+        bottom: 43%;
+    }
+
+    .product-title {
+        font-size: 1.1rem;
+    }
 }
 
-@media (min-width: 1025px) and (max-width: 1500px) {}
+@media (min-width: 1025px) and (max-width: 1500px) {
+    .c-pt-9 {
+        padding-top: 90px !important;
+    }
+}

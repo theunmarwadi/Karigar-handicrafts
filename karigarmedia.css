@@ -73,7 +73,7 @@
     }
 
     .atc-div {
-        bottom: 44%;
+        bottom: 47%;
     }
 
     .product-title {
@@ -98,8 +98,50 @@
 
     .strike-price {
         font-size: 14px;
-}
+    }
 
+    .o-scroll{
+        overflow: scroll;
+    }
+
+    .bs-row-width{
+        width: 1100px;
+    }
+
+    .product-card{
+        margin-right: 10px;
+    }
+
+    .bag-mr-bottom .col-caption, .col-caption { 
+        width: fit-content;
+    }
+
+
+    .parallax {
+        min-height: 350px;
+    }
+
+    .text-layout {
+        height: 350px;
+    }
+
+    .parallax-title {
+        font-size: 32px;
+    }
+
+    .parallax-slog {
+        font-size: 14px;
+    }
+
+    .link-parallax {
+        font-size: 12px;
+        padding: 7px 25px;
+    }
+
+    .png-responsive {
+        width: 45px;
+        height: auto;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -156,7 +198,7 @@
     }
 
     .atc-div {
-        bottom: 52%;
+        bottom: 45%;
     }
 
     .product-title {
@@ -175,6 +217,38 @@
         font-size: 13px;
     }
 
+    .bs-row-width{
+        width: 1100px;
+    }
+
+    .o-scroll {
+        overflow: scroll;
+    }
+
+    .parallax {
+        min-height: 400px;
+    }
+
+    .text-layout {
+        height: 400px;
+    }
+
+    .parallax-title {
+        font-size: 64px;
+    }
+
+    .parallax-slog {
+        font-size: 20px;
+    }
+
+    .link-parallax {
+        font-size: 12px;
+    }
+
+    .png-responsive {
+        width: 60px;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -187,16 +261,32 @@
     }
 
     .atc-div {
-        bottom: 43%;
+        bottom: 46%;
     }
 
     .product-title {
         font-size: 1.1rem;
+    }
+
+    .footer-menu {
+        padding-left: 48px;
+    }
+
+    .bs-row-width{
+        width: 1200px;
+    }
+
+    .o-scroll {
+        overflow: scroll;
     }
 }
 
 @media (min-width: 1025px) and (max-width: 1500px) {
     .c-pt-9 {
         padding-top: 90px !important;
+    }
+
+    .footer-menu {
+        padding-left: 48px;
     }
 }

@@ -104,17 +104,18 @@ body {
     bottom: 40%;
 }
 
-.caption-head{
+.caption-head {
     color: black;
     font-size: 5rem;
     font-weight: 600;
 }
 
-.caption-head-w{
+.caption-head-w {
     color: white;
     font-size: 5rem;
     font-weight: 600;
 }
+
 .ch-line {
     color: #000000;
     font-size: 1.5rem;
@@ -166,15 +167,16 @@ body {
     height: 20px;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-font-size: 22px;
-text-align: center;
-width: 48px;
-height: 48px;
-border-radius: 50%;
-background-color: #FFF;
-line-height: 48px;
-transition: all 0.2s ease 0s;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    font-size: 22px;
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #FFF;
+    line-height: 48px;
+    transition: all 0.2s ease 0s;
 }
 
 .img-responsive {
@@ -194,7 +196,8 @@ transition: all 0.2s ease 0s;
     transform: scale(1.03, 1.03) rotate(0.03deg) translateZ(0);
 }
 
-.bag-mr-bottom .col-caption, .col-caption {
+.bag-mr-bottom .col-caption,
+.col-caption {
     position: absolute;
     top: 25%;
     left: 50%;
@@ -225,18 +228,19 @@ transition: all 0.2s ease 0s;
     transform: translate(-15%, -50%);
     text-align: left;
     font-family: sans-serif;
-    
+
 }
 
-.recycled-truck .col-cap-one{
+.recycled-truck .col-cap-one {
     color: #000;
 }
 
 .modern-designs .col-cap-one {
-color: #32cfb0;
+    color: #32cfb0;
 }
 
-.recycled-truck .col-cap-two, .modern-designs .col-cap-two {
+.recycled-truck .col-cap-two,
+.modern-designs .col-cap-two {
     color: #000;
 }
 
@@ -266,11 +270,11 @@ color: #32cfb0;
     font-family: sans-serif;
 }
 
-.b-sellers-div a{
+.b-sellers-div a {
     color: #000;
 }
 
-.b-sellers-div a:hover{
+.b-sellers-div a:hover {
     text-decoration: none;
 }
 
@@ -290,9 +294,7 @@ color: #32cfb0;
     font-weight: 500;
 }
 
-.product-title {
-
-}
+.product-title {}
 
 .actual-price {
     font-size: 20px;
@@ -307,10 +309,10 @@ color: #32cfb0;
     text-decoration: line-through;
 }
 
-.product-card{
+.product-card {
     border: none;
     padding: 15px;
-    width: 28rem;
+    margin-right: 10px;
 }
 
 .product-card:hover {
@@ -320,10 +322,10 @@ color: #32cfb0;
 
 .atc-div {
     position: absolute;
-    background-color: rgba(255,255,255,.75);
+    background-color: rgba(255, 255, 255, .75);
     width: 100%;
     padding: 8px 0;
-    bottom: 32%;
+    bottom: 40%;
     left: 0;
     text-align: center;
 }
@@ -342,3 +344,160 @@ color: #32cfb0;
 .orange {
     color: #f16521;
 }
+
+.fbh {
+    padding: 18px 0;
+    font-size: 20px;
+    line-height: normal;
+    display: block;
+    text-align: center;
+}
+
+.top-chalee {
+    top: 45%;
+}
+
+.light-colors {
+    color: #32cfb0 !important;
+}
+
+.col-white {
+    color: #FFF !important;
+}
+
+.parallax {
+    background-image: url("https://pritiinternationalltd.com/pub/media/parallax/images/parallax_layout_1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-layout {
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parallax-title {
+    font-size: 84px;
+    line-height: 84px;
+    color: #FFF;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+.parallax-slog {
+    font-size: 24px;
+    line-height: normal;
+    color: #FFF;
+    margin-bottom: 45px;
+}
+
+.link-parallax {
+    color: #FFF;
+    background-color: #32cfb0;
+    padding: 18px 42px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border: 2px solid #32cfb0;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.png-responsive{
+    width: 80px;
+    height: auto;
+}
+
+.png-icons a {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* FOOTER */
+.footer-light {
+    background-color: #e3f7f6;
+    color: #696b79;
+}
+
+.footer-big {
+    padding: 40px 0 0 0;
+}
+
+.widget-about p {
+    font-weight: 400;
+}
+
+.widget-about .contact-details {
+    margin: 30px 0 0 0;
+}
+
+.widget-about .contact-details li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.widget-about .contact-details li span {
+    padding-right: 12px;
+}
+
+.widget-about .contact-details li a {
+    color: #5d5e6b;
+}
+
+.footer-big .footer-widget {
+    margin-bottom: 40px;
+}
+
+.footer-widget-title {
+    color: #696b79;
+    line-height: 42px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-menu ul li a {
+    font-size: 15px;
+    line-height: 32px;
+    transition: .3s;
+    color: #696b79;
+}
+
+
+
+
+.mini-footer {
+    background-color: #192724;
+    text-align: center;
+    padding: 32px 0;
+}
+
+.mini-footer p {
+    margin: 0;
+    line-height: 26px;
+    font-size: 15px;
+    color: #999;
+}
+
+.mini-footer p a {
+    color: white;
+}
+
+/* FOOTER */

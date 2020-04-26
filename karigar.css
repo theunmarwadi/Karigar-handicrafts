@@ -31,6 +31,7 @@ body {
 
 .kg-logo {
     font-size: 1.5rem;
+    font-family: 'Lexend Giga', sans-serif;
 }
 
 .kr-color {
@@ -62,6 +63,7 @@ body {
 
 .tbjcfe {
     justify-content: flex-end;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
 }
 
 .hpgac {
@@ -150,25 +152,26 @@ body {
     background: none;
 }
 
-.carousel-indicators li {
+.li-indicators {
     border: 0;
     border-radius: 50%;
-    background: #000;
-    width: 15px;
-    height: 15px;
+    background-color: #000 !important;
+    width: 15px !important;
+    height: 15px !important;
     margin: 0 15px;
-    transition: all 0.2s ease 0s;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    transition: all 0.2s ease 0s !important;
     z-index: 4;
 }
 
-.carousel-indicators .active {
-    background-color: #32cfb0;
-    width: 20px;
-    height: 20px;
+.carindic .active {
+    background-color: #32cfb0 !important;
+    width: 20px !important;
+    height: 20px !important;
 }
 
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
+.ccpni {
     font-size: 22px;
     text-align: center;
     width: 48px;
@@ -192,11 +195,11 @@ body {
     transition: all 0.3s ease;
 }
 
-.img-hover:hover img{
+.img-hover:hover img {
     transform: scale(1.03, 1.03) rotate(0.03deg) translateZ(0);
 }
 
-.b-sellers-div:hover img{
+.b-sellers-div:hover img {
     transform: scale(1.03, 1.03) rotate(0.03deg) translateZ(0);
 }
 
@@ -418,7 +421,7 @@ a:hover {
     text-decoration: none;
 }
 
-.png-responsive{
+.png-responsive {
     width: 80px;
     height: auto;
 }

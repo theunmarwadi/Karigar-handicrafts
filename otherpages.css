@@ -188,3 +188,945 @@
 
 /* SIGNUP PAGE */
 
+
+
+/* PRODUCT PAGE  */
+.indic-images {
+    position: unset;
+}
+
+.carousel-indicators li {
+    width: 20%;
+    height: auto;
+}
+
+.carousel-div,
+.product-detail {
+    padding: 10%;
+}
+
+.brooks-product {
+    background: -webkit-linear-gradient(#ec48b1, #f2903d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    display: flex;
+    font-family: 'Hind', sans-serif;
+}
+
+.product-page-name {
+    color: #b2b0b0;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.product-mrp {
+    padding-top: 12px;
+}
+
+.pachita {
+    font-size: 25px;
+}
+
+.tapachi {
+    font-size: 18px;
+}
+
+.installments {
+    background-color: #fff9a5;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+
+}
+
+.clander-icon {
+    padding-right: 10px;
+}
+
+.div-install {
+    padding-top: 5%;
+}
+
+.inc-tax {
+    font-size: 0.9rem;
+    padding-top: 1%;
+}
+
+.size {
+    padding-top: 2%;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.various-sizes {
+    display: flex;
+    padding-top: 3%;
+}
+
+.size-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px #a29191 solid;
+    margin-right: 20px;
+}
+
+.size-circle a {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    font-weight: 700;
+}
+
+.size-circle:hover {
+    color: white;
+    background-color: #084f8b;
+    transition: 0.6s;
+}
+
+.orange-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: orange;
+    border: 1px #a29191 solid;
+    margin-right: 20px;
+}
+
+.green-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    border: 1px #a29191 solid;
+    margin-right: 20px;
+}
+
+.addtobag-div button {
+    background-color: #32cfb0;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 3;
+    letter-spacing: 2.2px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.addtobag-div {
+    display: flex;
+    padding-top: 10%;
+}
+
+.atb {
+    width: 80%;
+}
+
+.atb-h {
+    width: 20%;
+}
+
+.atb-heart {
+    font-size: 1.5rem;
+}
+
+.atb-icon {
+    padding-right: 15px;
+}
+
+.pcode-number {
+    display: flex;
+    padding-top: 2%;
+}
+
+.iandc-detail {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.pcode {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.sizeandfit {
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.sweatshirtbybroo {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 2%;
+}
+
+.sweatshirt-list {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.btn-link {
+    padding-top: 2%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.accordion button:hover {
+    text-decoration: none;
+}
+
+.accordion button:focus {
+    text-decoration: none;
+}
+
+.ch-collapse {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.ch-collapse button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery-check {
+    border: 1px solid #d1d1d1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.delivery-check label {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.input-check-btn input {
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+}
+
+.input-check-btn button {
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    background-color: 828282;
+    color: #fff;
+}
+
+
+
+/* PRODUCT PAGE  */
+
+
+
+
+/* CART PAGE */
+.brooks-cart {
+    padding-bottom: 10%;
+}
+
+.cp-heading {
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+}
+
+.mb-div {
+    width: 33.33%;
+}
+
+.os-div {
+    width: 48%;
+}
+
+.h-my-cart span {
+    margin: 0 15px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.cp-heading h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.cp-heading h2:after {
+    background: #000;
+    height: 2px;
+    flex: 1;
+    content: '';
+}
+
+.cart-count {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.cart-item {
+    display: flex;
+    margin-top: 16px;
+    border: 1px solid #dcddde;
+    background-color: #fff;
+}
+
+.cart-item-img {
+    padding: 5px;
+}
+
+.cart-item-info {
+    padding: 5px;
+}
+
+.cart-item-title {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-product-name {
+    color: #828282;
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+.cart-product-name span {
+    font-weight: 900;
+    color: #333;
+}
+
+.size-qty {
+    display: flex;
+}
+
+.cart-item-size {
+    display: flex;
+}
+
+.size-label {
+    display: flex;
+    width: 50px;
+    font-weight: bold;
+    color: #333;
+    line-height: 26px;
+}
+
+.size-list {
+    width: 120px;
+    margin: 0 15px;
+}
+
+.size-list select {
+    min-height: 26px;
+    font-size: 12px;
+    color: #000;
+    background-color: white;
+    border-radius: 0;
+    text-indent: 5px;
+    padding: 0 0 0 1px;
+    width: 70%;
+    -webkit-appearance: none;
+}
+
+.cart-item-qty {
+    display: flex;
+}
+
+.qty-box {
+    display: flex;
+    border: 1px solid #d1d1d1;
+    margin: 0 0 0 15px;
+}
+
+.qty-minus,
+.qty-plus {
+    width: 24px;
+    border-right: 1px solid #dcddde;
+    text-align: center;
+}
+
+.item-qty {
+    text-align: center;
+    width: 70px;
+    line-height: 24px;
+    font-size: 0.875rem;
+    border-right: 1px solid #dcddde;
+}
+
+.cart-item-price {
+    font-size: 13px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 10px;
+}
+
+.lite-color {
+    color: #ccc;
+}
+
+.promo-code {
+    margin-bottom: 16px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.coupon-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coupon-box input {
+    min-height: 38px;
+    flex: 3;
+    padding-left: 10px;
+    color: #333;
+    border: 1px solid #dcddde;
+}
+
+.btn-apply {
+    flex: 1;
+    background-color: #32cfb0;
+    color: #fff;
+    min-height: 38px;
+    text-align: center;
+    line-height: 38px;
+    cursor: pointer;
+}
+
+.cart-coupon {
+    margin-bottom: 32px;
+}
+
+.offerTitle {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.cart-checkout h3 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.cart-payment-section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cart-payment-section h3 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.show_order_detail {
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    line-height: 19px;
+    color: #3b73af;
+    font-size: 12px;
+}
+
+.pioft {
+    color: #7b7b7b;
+    font-size: 0.625rem;
+    font-weight: normal;
+}
+
+.info-circle {
+    padding-left: 10px;
+}
+
+.s-charges {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.cart-payment-section div {
+    padding-top: 5px;
+}
+
+.checkout-btn,
+.thank-you .checkout-btn {
+    width: 100%;
+    font-size: 16px;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    background-color: #32cfb0;
+    color: white;
+    line-height: 50px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.genuine {
+    color: #f16521;
+    font-weight: 500;
+}
+
+/* CART PAGE */
+
+/* HANDICRAFT FURNITURE BAGS PAGE*/
+.home-women ul {
+    display: flex;
+}
+
+.home-women ul li {
+    list-style: none;
+}
+
+.home-women ul li a {
+    color: black;
+    font-size: 0.75rem;
+}
+
+.home-women {
+    padding-left: 1%;
+}
+
+.filters {
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.w-brand {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.w-brands {
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+.brands-input {
+    width: 100%;
+    height: 29px;
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 2px;
+    margin: 10px 0;
+}
+
+.brand-ul li {
+    list-style: none;
+    display: flex;
+}
+
+.brand-ul li label {
+    display: flex;
+}
+
+.brand-tick {
+    border: 1px solid #545454;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05), inset 0 -15px 10px -12px rgba(0, 0, 0, .05);
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+}
+
+.b-t-name {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.b-t-number {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+.b-view-all {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 85px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.b-cc-black,
+.b-cc-blue,
+.b-cc-brown,
+.b-cc-yellow {
+    width: 30px;
+    height: 30px;
+    top: 8px;
+    margin-right: 8px;
+    border-radius: 30px;
+    border: 1px #080808 solid;
+
+}
+
+.b-cc-black {
+    background-color: #2a2b2d;
+}
+
+.b-cc-blue {
+    background-color: #0000FF;
+}
+
+.b-cc-brown {
+    background-color: #804C3A;
+}
+
+.b-cc-yellow {
+    background-color: #FFFF00;
+}
+
+.b-freesize {
+    min-width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #545454;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05), inset 0 -15px 10px -12px rgba(0, 0, 0, .05);
+    margin-right: 8px;
+}
+
+.b-freesize span {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.sort-by {
+    width: 212px;
+    padding: 5px;
+    border: 1px solid #d1d1d1;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.filt-sort {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sort-by span {
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+.proname {
+    font-size: 15px;
+}
+
+.b-sellers-div {
+    padding-bottom: 3%;
+}
+
+.w-pro-pad .atc-div {
+    bottom: 43%;
+}
+
+.brand-filter-div {
+    background-color: #FFF;
+    margin-top: 2.5%;
+}
+
+.sort-by {
+    margin-bottom: 1%;
+}
+
+/* HANDICRAFT FURNITURE BAGS PAGE*/
+
+/* FAQS */
+
+.faq-div span {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.faq-col-btn {
+    padding-top: 0;
+    font-size: 1rem;
+}
+
+.c-border {
+    border: 1px solid #32cfb0;
+}
+
+/* FAQS */
+
+/* T&C */
+
+.tandc-title {
+    font-size: 35px !important;
+}
+
+.text-block p {
+    color: #888888;
+}
+
+.tandc-bg {
+    background-color: #FFF;
+}
+
+
+
+/* T&C */
+
+/* SHIPPING */
+
+.gray {
+    color: #888888;
+}
+
+.leenone li {
+    list-style: none;
+}
+
+/* SHIPPING */
+
+/* CONTACT */
+
+.bg-color {
+    background-color: #32cfb0;
+}
+
+.sm-color {
+    background-color: #32cfb0;
+    color: #fff;
+}
+
+.section-padding {
+    padding: 40px 0;
+}
+
+.formrow {
+    flex-direction: column;
+}
+
+.plr {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* CONTACT */
+
+
+/* ABOUT US */
+
+.about-us-page img {
+    margin-bottom: 35px;
+}
+
+.about-us-page p {
+    margin-bottom: 25px;
+}
+
+/* ABOUT US */
+
+
+/* GALLERY */
+.c-yfj {
+    color: #000000;
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+
+.contact-p {
+    color: #929391;
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 0.25px;
+}
+
+
+.tp-gallery {
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 26px;
+}
+
+.co-ob {
+    text-align: center;
+}
+
+.instagram-heading {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: linear-gradient(#d73a78, #f17e3a)
+}
+
+.hobj {
+    height: 60%;
+    object-fit: cover;
+}
+
+/* GALLERY */
+
+@media (min-width: 0px) and (max-width: 480px) {
+
+    .product-page-name {
+        font-size: 1rem;
+    }
+
+    .pachita {
+        font-size: 18px;
+    }
+
+    .tapachi {
+        font-size: 14px;
+    }
+
+    .inc-tax {
+        font-size: 0.7rem;
+    }
+
+    .size {
+        font-size: 1rem;
+    }
+
+    .orange-circle,
+    .green-circle {
+        width: 20px;
+        height: 20px;
+    }
+
+    .installments {
+        font-size: 0.7rem;
+    }
+
+    .addtobag-div button {
+        line-height: 2.5;
+    }
+
+    .ifc {
+        font-size: 1rem;
+    }
+
+    .size-qty {
+        display: block;
+    }
+
+    .cp-heading {
+        display: none;
+    }
+
+    .cart-product-name {
+        font-size: 0.8rem;
+    }
+
+    .genuine {
+        font-size: 12px;
+    }
+
+    .cart-item-title {
+        margin-bottom: 2px;
+    }
+
+    .qty-box {
+        font-size: 15px;
+    }
+
+    .brand-filter-div {
+        display: none;
+    }
+
+    .b-sellers-div {
+        padding-right: 0;
+        padding-bottom: 3%;
+    }
+
+    .w-pro-pad .card-body {
+        padding: 0.5rem;
+    }
+
+    .w-pro-pad .more-colors {
+        font-size: 9px;
+        letter-spacing: 0px;
+    }
+
+    .w-pro-pad .proname {
+        font-size: 11px;
+    }
+
+    .w-pro-pad .by-brand {
+        font-size: 9px;
+    }
+
+    .w-pro-pad .product-card {
+        padding: 8px;
+    }
+
+    .w-pro-pad .actual-price {
+        font-size: 13px;
+    }
+
+    .w-pro-pad .strike-price {
+        font-size: 9px;
+    }
+
+    .w-pro-pad .atc-btn {
+        padding: 3px 15px;
+    }
+
+    .w-pro-pad .atc-div {
+        bottom: 45%;
+    }
+
+    .sort-by {
+        width: 322px;
+        display: flex;
+        align-items: center;
+        font-size: 0.75rem;
+        margin: 8px 0;
+    }
+
+    .filters {
+        font-size: 0.75rem;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .brand-filter-div {
+        display: none;
+    }
+
+    .w-pro-pad .atc-div {
+        bottom: 33%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1500px) {
+    .w-pro-pad {
+        padding: 0px 32px;
+    }
+}

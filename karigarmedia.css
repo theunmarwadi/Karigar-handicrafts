@@ -14,14 +14,14 @@
     }
 
     .carousel-indicators li {
-        width: 10px;
-        height: 10px;
+        width: 10px !important;
+        height: 10px !important;
         margin: 0 10px;
     }
 
     .carousel-indicators .active {
-        width: 15px;
-        height: 15px;
+        width: 15px !important;
+        height: 15px !important;
     }
 
     .caption-head,
@@ -55,21 +55,22 @@
 
     .col-cap-one {
         font-size: 18px;
-        margin-bottom: 12px;    
+        margin-bottom: 12px;
     }
 
     .col-cap-two {
-    font-size: 14px;
-    margin-bottom: 10px;
+        font-size: 14px;
+        margin-bottom: 10px;
     }
 
-    .b-shop-now, .recycled-truck .b-shop-now  {
+    .b-shop-now,
+    .recycled-truck .b-shop-now {
         font-size: 12px;
         padding: 7px 25px;
     }
 
     .category-heading {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
     }
 
     .atc-div {
@@ -93,26 +94,27 @@
     }
 
     .actual-price {
-        font-size: 18px; 
+        font-size: 18px;
     }
 
     .strike-price {
         font-size: 14px;
     }
 
-    .o-scroll{
+    .o-scroll {
         overflow: scroll;
     }
 
-    .bs-row-width{
+    .bs-row-width {
         width: 1100px;
     }
 
-    .product-card{
+    .product-card {
         margin-right: 10px;
     }
 
-    .bag-mr-bottom .col-caption, .col-caption { 
+    .bag-mr-bottom .col-caption,
+    .col-caption {
         width: fit-content;
     }
 
@@ -177,20 +179,21 @@
 
     .col-cap-one {
         font-size: 24px;
-        margin-bottom: 12px;    
+        margin-bottom: 12px;
     }
 
     .col-cap-two {
-    font-size: 20px;
-    margin-bottom: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
     }
 
-    .b-shop-now, .recycled-truck .b-shop-now  {
+    .b-shop-now,
+    .recycled-truck .b-shop-now {
         font-size: 12px;
     }
 
     .actual-price {
-        font-size: 18px; 
+        font-size: 18px;
     }
 
     .strike-price {
@@ -205,7 +208,7 @@
         font-size: 0.85rem;
     }
 
-    .save-rs{
+    .save-rs {
         font-size: 10px;
     }
 
@@ -217,7 +220,7 @@
         font-size: 13px;
     }
 
-    .bs-row-width{
+    .bs-row-width {
         width: 1100px;
     }
 
@@ -272,7 +275,7 @@
         padding-left: 48px;
     }
 
-    .bs-row-width{
+    .bs-row-width {
         width: 1200px;
     }
 
